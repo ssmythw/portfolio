@@ -1,0 +1,9 @@
+.navbar {
+  background-color: rgb(255, 255, 255) !important;
+  box-shadow: 0 0.5px 15px black;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+}

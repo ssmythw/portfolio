@@ -1,0 +1,55 @@
+.resume-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.capco {
+  height: 300px;
+  width: 600px;
+}
+
+h1 {
+  margin-bottom: 35px;
+  margin-top: 35px;
+}
+
+h3 {
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.image-container {
+  box-shadow: 0 0.1px 5px black;
+}
+
+.slanted {
+  background-color: rgb(61, 61, 61);
+  color: white;
+  position: relative;
+}
+
+.slanted:after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: inherit;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  transform-origin: top left;
+  transform: skewY(4deg);
+  z-index: -2;
+}
+
+.bns {
+  margin-top: 100px;
+}
